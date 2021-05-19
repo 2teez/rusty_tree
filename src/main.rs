@@ -4,16 +4,16 @@ use std::env;
 use walkdir::WalkDir;
 
 fn main() {
-   // user gets the directory name from the cli. It could also
-  8     // list of directories not just a single one. 
-  9     // if non is provided the `current` directory is used as default
- 10     let mut filename = env::args().skip(1).collect::<Vec<_>>();
- 11     match filename.len() {
- 12         0 => parse_directory_tree("."),
- 13         _ => filename
- 14             .into_iter()
- 15             .for_each(|filename| parse_directory_tree(&filename)),
- 16     }
+    // user gets the directory name from the cli. It could also
+    // list of directories not just a single one.
+    // if non is provided the `current` directory is used as default
+    let mut filename = env::args().skip(1).collect::<Vec<_>>();
+    match filename.len() {
+        0 => parse_directory_tree("."),
+        _ => filename
+            .into_iter()
+            .for_each(|filename| parse_directory_tree(&filename)),
+    }
 }
 
 /// `parse_directory_tree` function takes a string and return ().
