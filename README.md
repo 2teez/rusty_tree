@@ -2,7 +2,7 @@
 
 # Name 
 
-rusty_tree - list contents of directories in a tree-like format like the tree command in *nix system.
+`rusty_tree` - list contents of directories in a tree-like format like the tree command in *nix system.
 
 # Synopsis
 
