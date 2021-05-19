@@ -1,14 +1,14 @@
 # rusty_tree
 
-# Name 
+## Name 
 
 `rusty_tree` - list contents of directories in a tree-like format like the `tree` command in *nix system.
 
-# Synopsis
+## Synopsis
 
 ```./rusty_tree  [.] [directory] on *nix. Or rusty_tree.exe [.] [directory] on windows``` 
 
-# Description
+## Description
 
 `rusty_tree` is a recursive directory listing program that produces depth indented listing of files to the cli.  
 
@@ -19,7 +19,7 @@ When directory argument is given, `rusty_tree` lists all the files and/or direct
 Upon completion of listing all files/directories found, `rusty_tree` returns the total number of files and/or directories.
 
 
-# Inspiration
+## Inspiration
 
 I got this idea from the book `Beginning Perl` by `Curtis Poe`. Though I had being using Perl long before then. 
 
@@ -32,9 +32,9 @@ Another reason for this, was that on my win8.1 cli dos-like interface; (not `pow
 This would be a bit impossible without installing the likes of `Cygwin`. so, I decided to write one.
 
 
-# Caveat
+### Caveat
 
-1. Unlike the `tree` command, `rusty_tree` only works on a sinle directory for now. I hope to make it take several directories and 
-list all files and directories contained therein for each of the list of arguments.
+~~1. Unlike the `tree` command, `rusty_tree` only works on a sinle directory for now. I hope to make it take several directories and 
+list all files and directories contained therein for each of the list of arguments.~~
 
 2. You *_CANNOT_* use `rusty_tree` on directory the user doesn't have permission. It will panic and the program will end abruptly. 
