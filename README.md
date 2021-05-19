@@ -14,9 +14,11 @@
 
 When no argument is provided, `rusty_tree` lists the files in the current directory which is taken as the default directory.
 
-When directory argument is given, `rusty_tree` lists all the files and/or directories found in the given directory.  
+When directories arguments are given, `rusty_tree` lists all the files and/or directories found in the given directory.  
 
-Upon completion of listing all files/directories found, `rusty_tree` returns the total number of files and/or directories.
+Upon completion of listing all files/directories found, `rusty_tree` returns the total number of files and/or directories for each
+
+of the directories listed as arguments on the cli for `rusty_tree` program.
 
 
 ## Inspiration
@@ -34,7 +36,7 @@ This would be a bit impossible without installing the likes of `Cygwin`. so, I d
 
 ### Caveat
 
-~~1. Unlike the `tree` command, `rusty_tree` only works on a sinle directory for now. I hope to make it take several directories and 
+[x] ~~1. Unlike the `tree` command, `rusty_tree` only works on a sinle directory for now. I hope to make it take several directories and 
 list all files and directories contained therein for each of the list of arguments.~~
 
 2. You *_CANNOT_* use `rusty_tree` on directory the user doesn't have permission. It will panic and the program will end abruptly. 
