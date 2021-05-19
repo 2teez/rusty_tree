@@ -36,7 +36,7 @@ This would be a bit impossible without installing the likes of `Cygwin`. so, I d
 
 ### Caveat
 
-[x] ~~1. Unlike the `tree` command, `rusty_tree` only works on a sinle directory for now. I hope to make it take several directories and 
-list all files and directories contained therein for each of the list of arguments.~~
+- [x] ~~1. Unlike the `tree` command, `rusty_tree` only works on a sinle directory for now. I hope to make it take several directories and 
+list all files and directories contained therein for each of the list of arguments.~~ (`Fixed` it now works correctly for list of directories also like `tree`)
 
 2. You *_CANNOT_* use `rusty_tree` on directory the user doesn't have permission. It will panic and the program will end abruptly. 
