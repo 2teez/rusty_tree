@@ -2,7 +2,7 @@
 
 # Name 
 
-`rusty_tree` - list contents of directories in a tree-like format like the tree command in *nix system.
+`rusty_tree` - list contents of directories in a tree-like format like the `tree` command in *nix system.
 
 # Synopsis
 
@@ -23,9 +23,14 @@ Upon completion of listing all files/directories found, `rusty_tree` returns the
 
 I got this idea from the book `Beginning Perl` by `Curtis Poe`. Though I had being using Perl long before then. 
 
-I had used the book in 2013,when Perl programming language was my go to languge for several of my work. I still use Perl these days though. 
+I had used the book in 2013, when Perl programming language was my go to languge for several of my work. I still use Perl these days though. 
 
 So I decided to use `@rust-lang` to achieve the same thing just for the fun of it.
+
+Another reason for this, was that on my win8.1 cli dos-like interface; (not `powershell`), I will love to use the `tree` command. 
+
+This would be a bit impossible without installing the likes of `Cygwin`. so, I decided to write one.
+
 
 # Caveat
 
